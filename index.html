@@ -13,7 +13,7 @@
   <nav id="navbar">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Order</a></li>
+        <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
   </nav>
@@ -21,26 +21,15 @@
       <h1 class="h-primary">Welcome to Del Baccio's Pizza</h1>
       <p class="centre">IT'S NOT PIZZA IT'S DEL BACCIO'S!!</p>
       <P class="centre">We are the industry leader in quality and affordable pizzas. Serving oven fresh hot pizza with all naturally grown and fresh ingridients. The dough is homemade and the crust is to your liking and your cheese is melting.</P>
-      <button id="btn">ORDER NOW</button>
     </section>
-    <form class="form-group" id="custom-pizza">
-        <div class="order">
-            <div class="row">
-                <div class="col-md-4 col-xs-9">
-                    <div class="card">
-                        <img src="images/pizzapic.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Sizes of pizza</h5>
-                            <p class="card-text">Choose the size of Pizza:</p>
-                            <select required class="form-control" id="size">
-                                <option></option>
-                                <option value="small-pizza">small @600</option>
-                                <option value="medium-pizza">medium @850</option>
-                                <option value="large-pizza">large @1050</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
+    <div col-md-6>
+        <form id="pizzaMenu">
+            <select name="size" id="pizzaSize">
+                <option></option>
+            </select>
+
+        </form>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="JS/scripts.js"></script>
