@@ -147,7 +147,60 @@
                 <button type="submit" class=" bg-warning text-dark btn btn-orange proceed">Proceed</button>
                 
               </form>
-  
+            </div>
+            <div class="col-sm-7">
+              <div id="information">
+                <p>Your order will be processed and delivered within two  hours of placing.</p>
+                <p>Make sure to have the total amount required for delivery.</p>
+                <p>Incase of any issues with an order placed, feel free to contact us thorigh our contact lines given on the contact section of this page</p>
+              </div>
+                  <div class="choise">
+                    <h2>Your Order is:</h2>
+                    <div id="your-orders">
+                      <table class="table table-sm  pizzatable">
+                        <thead>
+                          <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Toppings</th>
+                            <th scope="col">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody id="ordersmade">
+                          <tr>
+                            <td id="pizzaname"></td>
+                            <td id="pizzasize"></td>
+                            <td id="pizzacrust"></td>
+                            <td id="pizzatopping"></td>
+                            <td id="totals"></td>
+                          </tr>                  
+                        </tbody>
+                      </table>
+                      <p id="pizzatotal"></p>
+                      <p id="totalbill"></p> 
+                      <p id="addedprice">Delivery will cost sh. 100</p>
+                      <p id="finallmessage"></p>
+                    </div>
+                    <button class="bg-danger btn btn-orange addPizza">Add Pizza</button>
+                    <button class="bg-success btn btn-orange" id="checkout">Checkout</button>
+                    <button class="bg-warning  btn btn-orange deliver">Home delivery?</button>
+                  </div>
+                  <div class="delivery">
+                      <form action="">
+                        <div class="form-group">
+                          <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                          <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                          <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                          <button class="bg-success btn btn-orange" id="final-order">Place Order</button>
+                        </div>
+                      </form>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      <br>
     
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="JS/scripts.js"></script>
