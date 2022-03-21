@@ -35,3 +35,97 @@
         margin: 0;
         opacity: 3;
     }
+    .panel.active h3{
+        opacity: 1;
+        
+    }
+
+    @media(max-width: 480px) {
+        container {
+            width: 100vw; 
+        }
+        .panel:nth-of-type(4),
+        .panel:nth-of-type(5) {
+            display: none;
+        }
+    }
+    h1{
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 4px;
+        
+    }
+    #overlay{
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+  
+    #head{
+    padding-top: 10%;
+    }
+    nav .navbar{
+    width: 99%;
+    padding-right: 0px;
+    }
+    .navbar-brand{
+    margin-right: 30%;
+    font-weight:800;
+    }
+    .nav-item a{
+    /* padding-right: 50px; */
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+    .landing{
+    background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.700)), url("https://images.unsplash.com/photo-1615719413546-198b25453f85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1576&q=80");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+    }
+    .text a{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .text h5{
+        font-size: 25px;
+        padding: 30px;
+    }
+    .button{
+        border-radius: 10px;
+    }
+    .card-title{
+        text-align: center;
+        color: green;
+        font-weight: 800;
+    }
+    .controls-top h2{
+        color: rgb(5, 172, 5);
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-weight: bolder;
+    }
+    .col-md-4{
+        border-radius: 10%;
+        padding: 10px;
+    }
+
+    .about-pic {
+        background-color: #ffa500;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+ 
