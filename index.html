@@ -6,31 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144351462-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144351462-1');
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Del Baccio's Pizza</title>
 </head>
 <body>
-  <nav id="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-  </nav>
-  <section id="home">
-      <h1 class="h-primary">Welcome to Del Baccio's Pizza</h1>
-      <p class="centre">IT'S NOT PIZZA IT'S DEL BACCIO'S!!</p>
-      <P class="centre">We are the industry leader in quality and affordable pizzas. Serving oven fresh hot pizza with all naturally grown and fresh ingridients. The dough is homemade and the crust is to your liking and your cheese is melting.</P>
+    <section class="landing ">
+        <div id="overlay">
+            <nav class=" navbar navbar-expand-sm text-capitalize text-monospace  navbar-dark fixed-top">
+                <a class="navbar-brand " href="#">Benny's Pizza</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <!--Navigation Items-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>    
+                  </ul>
+                </div>  
+              </nav>
+              <div class=" text-white mask rgba-black-light align-items-center">
+                <div class="" id="head">
+                  <div class="row ">
+                    <div class="col-md-12 mb-4 text-monospace white-text text-center text">
+                      <h1 class="h1-reponsive gold-text text-uppercase text-warning font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong>Del Baccio's Pizza</strong></h1>
+                      <h5 class="text-uppercase mb-4 gold-text floater"><strong>The Best Pizza in Town!</strong></h5>
+                      <h2 class="text-uppercase text-monospace floater "><strong>To place an Order click the button below</strong></h2>
+                      <br>
+                      <a class="bg-white text-success btn btn-orange button floater" href="#make-order"> Order Now !</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+            
+        </div>
     </section>
-    <div col-md-6>
-        <form id="pizzaMenu">
-            <select name="size" id="pizzaSize">
-                <option></option>
-            </select>
+    <!--Expanding Cards-->
+    <br>
+    <section>
+    <class class="  row align-items-start">
+        <class  class="text-capitalize">
+          
+            <div class="panel" style="background-image: url('images/Pizza.jpg')">
+                <h3>Cheese</h3>
+            </div>
+          </class>
 
-        </form>
-    </div>
+          
+            <div class="panel" style="background-image: url('images/pizzapic.jpg')">
+                <h3>Meat Pizza</h3>
+            </div>
+      
 
+
+   
+            <div class="panel" style="background-image: url('images/pizza.jpg')">
+                <h3>Pepperoni Pizza</h3>
+            </div>
+          
+
+       
+            <div class="panel" style="background-image: url('images/pizzaa.jpg')">
+                <h3>Magherita Pizza</h3>
+            </div>
+    
+
+         
+            <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')">
+                <h3>BBQ Chicken Pizza</h3>
+            </div>
+      </class>
+</section>
+  
+  
+    
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="JS/scripts.js"></script>
 </body>
